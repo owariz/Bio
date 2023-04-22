@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bio | Variz</title>
+    <link href="/assets/styles/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div
+      class="backdrop-blur-sm min-h-screen w-full bg-black/50 flex justify-center items-center p-5 polka"
+    >
+      <div class="bg-white rounded-xl shadow-xl">
+        <div class="p-7">
+          <h1
+            class="text-black dark:text-transparent bg-gradient-to-r from-purple-600 to-purple-400 bg-clip-text text-3xl font-bold pb-4 pt-0 px-5 text-center"
+          >
+            Variz
+          </h1>
+          <div>
+            <div
+              class="h-[100px] w-full bg-center bg-cover rounded-xl bg-[url('https://cdn.discordapp.com/attachments/968408319343607819/987373087592964166/90890105_p0.jpg')] transition-all duration-300 hover:bg-[url('https://cdn.discordapp.com/attachments/968408319343607819/981955359965052989/sH8ZUUK.jpg')]"
+            ></div>
+            <div class="text-center mt-6">
+              <span class="font-light text-black/50tracking-tighter">
+                โย่วๆ เราชื่อ Variz นะถ้าพวกนายอยากติดตามเราก็<br />กดที่ปุ่มด้านล่างนี้ได้เลย
+              </span>
+            </div>
+          </div>
+        </div>
+        <hr class="border-dashed" />
+        <div class="grid grid-cols-3 gap-2 p-7">
+          <div
+            class="text-center py-1.5 bg-gradient-to-l from-red-500 to-rose-700 rounded-md transition-all duration-300 ease-out hover:scale-95"
+          >
+            <a
+              class="text-white font-semibold px-3"
+              href="https://www.youtube.com/channel/UCTzg0rYWxL7nNxhZFjgSElA"
+              >Youtube</a
+            >
+          </div>
+          <div
+            class="text-center py-1.5 bg-gradient-to-l from-sky-400 to bg-blue-600 rounded-md transition-all duration-300 ease-out hover:scale-95"
+          >
+            <a
+              class="text-white font-semibold px-3"
+              href="https://twitter.com/Variz15398370"
+              >Twitter</a
+            >
+          </div>
+          <div
+            class="text-center py-1.5 bg-gradient-to-l from-pink-400 to bg-purple-600 rounded-md transition-all duration-300 ease-out hover:scale-95"
+          >
+            <a
+              class="text-white font-semibold px-3"
+              href="https://github.com/Variz-h264"
+              >Github</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.20.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.20.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyDvSjireMLny2oA2rTMLaVy5DKUoSkeBM4",
+        authDomain: "variz-dbad6.firebaseapp.com",
+        databaseURL: "https://variz-dbad6-default-rtdb.firebaseio.com",
+        projectId: "variz-dbad6",
+        storageBucket: "variz-dbad6.appspot.com",
+        messagingSenderId: "557719494688",
+        appId: "1:557719494688:web:c4bafd34495fba2bbf9c45",
+        measurementId: "G-JTE329SVD2",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>firebase init
+  </body>
+</html>
